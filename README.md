@@ -10,11 +10,13 @@ While you execute the command, you can also scroll up to see how much time each 
 ```sh
 ./build-all.sh
 
-tdis                                                           prune-and-single-container-and-cache-cleared            ba3d237aa81f   1 second ago         234MB
-tdis                                                           double-install-and-single-container-and-cache-cleared   3901b8dee027   About a minute ago   234MB
-tdis                                                           prune-and-single-container                              9251b7633ec4   3 minutes ago        233MB
-tdis                                                           double-install-and-single-container                     0e37546932ae   5 minutes ago        233MB
-tdis                                                           double-install-and-two-containers                       9e4667699ecb   6 minutes ago        111MB
-tdis                                                           prune-and-two-containers                                9e4667699ecb   6 minutes ago        111MB
+tdis                                                           one-layer-container                                     905c25e4623e   2 minutes ago   109MB
+tdis                                                           multiple-layer-container                                9e23def32921   2 minutes ago   109MB
+tdis                                                           prune-and-single-container-and-cache-cleared            44f3b835bd21   16 hours ago    234MB
+tdis                                                           prune-and-single-container                              377cdaab218f   16 hours ago    233MB
+tdis                                                           double-install-and-single-container-and-cache-cleared   e2d600d82316   16 hours ago    234MB
+tdis                                                           double-install-and-single-container                     97d140806f09   16 hours ago    233MB
+tdis                                                           double-install-and-two-containers                       f66ec7840dff   16 hours ago    111MB
+tdis                                                           prune-and-two-containers                                f66ec7840dff   16 hours ago    111MB
 ```
 
